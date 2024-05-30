@@ -1,0 +1,57 @@
+Sub verfiltro()
+
+Application.ScreenUpdating = False
+    
+    Dim Calendario As String
+    Calendario = Range("AC" & ActiveCell.ROW).Value
+    
+    If ActiveCell.ROW < 2 Then
+    MsgBox ("No selecciono un grupo valido!")
+    End
+    End If
+    
+    On Error GoTo continuar
+    If IsObject(Sheets(Calendario)) Then
+    MsgBox ("Ya existe una hoja con el nombre indicado!")
+    End
+    End If
+continuar:
+    
+    
+    ActiveSheet.Copy after:=ActiveSheet
+    ActiveSheet.Name = Calendario
+    
+    Dim ROW As Double
+    Dim ROW2 As Double
+    ROW = 2
+    
+    Application.Calculation = xlCalculationManual
+    
+    Do While Range("AK" & ROW).Value <> ""
+    
+        If Range("AC" & ROW).Value <> Calendario Then
+        
+            ROW2 = ROW + 1
+            Do While Range("AC" & ROW2).Value <> Calendario And Range("AK" & ROW2).Value <> ""
+            ROW2 = ROW2 + 1
+            Loop
+            ROW2 = ROW2 - 1
+        
+            ROWS(ROW & ":" & ROW2).Delete Shift:=xlUp
+        Else
+            ROW = ROW + 1
+        End If
+    
+    Loop
+    
+    Application.Calculation = xlCalculationAutomatic
+    Range("A2:L2000").RowHeight = 73.5
+    Selection.font.Size = 16
+    Range("K9:K1000,M9:M1000,E9:E1000").Select
+    Selection.font.Size = 20
+    
+    Application.ScreenUpdating = True
+    Range("A2").Select
+
+End Sub
+

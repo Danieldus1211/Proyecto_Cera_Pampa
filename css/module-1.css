@@ -1,0 +1,474 @@
+#portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    opacity: 0;
+    background: rgba(8, 19, 101, 0.9);
+}
+
+/*
+.modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,-50px);
+    transform: translate(0,-50px);
+}
+*/
+/*
+.portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+}*/
+
+/*
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    text-align: center;
+} */
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+element.style {
+}
+/*
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    text-align: center;
+}*/
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+}
+
+/*
+.modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,-50px);
+    transform: translate(0,-50px);
+}
+*/
+
+
+@media only screen and (min-width: 1200px)
+.cms-home .container {
+    width: 1140px;
+}
+
+@media only screen and (min-width: 992px)
+.cms-home .container {
+    width: 970px;
+}
+
+@media only screen and (min-width: 768px)
+.cms-home .container {
+    width: 760px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content {
+    padding-bottom: 80px;
+    padding-top: 35px;
+}
+
+@media only screen and (min-width: 1200px)
+.container {
+    width: 1140px;
+}
+
+@media only screen and (min-width: 992px)
+.container {
+    width: 970px;
+}
+
+@media only screen and (min-width: 768px)
+.container {
+    width: 750px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+/*
+.container, .main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/452
+@media handheld, only screen and (min-width: 768px)
+.grid-pad {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+@media handheld, only screen and (min-width: 768px)
+.grid {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.grid {
+    width: 100%;
+    min-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+@media only screen and (min-width: 992px)
+.cms-home .section-grid .section-grid-content .section-grid-section {
+    padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px)
+.cms-home .section-grid .section-grid-content .section-grid-section {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    -ms-flex: 1 0 32%;
+    flex: 1 0 32%;
+}
+
+@media only screen and (min-width: 480px)
+.cms-home .section-grid .section-grid-content .section-grid-section {
+    padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content .section-grid-section:nth-child(3n+1) {
+    clear: left;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content .section-grid-section {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: calc(33.3% - 10px);
+    height: 190px;
+    position: relative;
+}
+
+}.section-grid .section-grid-content .section-grid-section {
+    padding-bottom: 15px;  
+    margin: 0;
+}
+
+@media handheld, only screen and (min-width: 768px)
+.hcol-1-2:not(.md-hcol-init), .hcol-6-12:not(.md-hcol-init) {
+    width: 50%;
+}
+
+@media handheld, only screen and (min-width: 768px)
+[class*=hcol-]:not(.md-hcol-init) {
+    float: left;
+    min-height: 1px;
+    margin-top: 0;
+    padding-right: 20px;
+}
+
+@media handheld, only screen and (min-width: 992px)
+.hcol-1-2, .hcol-6-12 {
+    width: 50%;
+}
+
+@media handheld, only screen and (min-width: 992px)
+[class*=hcol-], [class*=hcol-] [class*=hcol-] {
+    padding-right: 20px;
+}
+
+@media handheld, only screen and (min-width: 992px)
+[class*=hcol-] {
+    float: left;
+    min-height: 1px;
+    margin-top: 0;
+}
+
+[class*=hcol-] {
+    width: auto;
+    float: none;
+    margin: 10px 0;
+    padding-left: 8px; /* change 0px */
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content .section-grid-section .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 190px;
+    width: 100%;
+}
+
+.section-grid .section-grid-content .section-grid-section a .container-title-widget {
+  /*  background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.1) 34%,rgba(0,0,0,.2) 56%,rgba(0,0,0,.4) 78%,rgba(0,0,0,.8) 99%,rgba(0,0,0,.8));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00000000",endColorstr="#cc000000",GradientType=0); */
+ /*   position: absolute;  change*/  
+    bottom: 0;
+    width: 100%;
+  /*  padding: 50px 30px 30px; change */
+/*	padding: 0px 30px 13px;  */
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content .section-grid-section .wrapper a h3, .section-grid .section-grid-content .section-grid-section .wrapper a span {
+    bottom: 25px;
+    left: 25px;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+}
+
+.section-grid .section-grid-content .section-grid-section a .container-title-widget h3, .section-grid .section-grid-content .section-grid-section a .container-title-widget span {
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 1.8rem;
+ /*   text-shadow: 0 0 5px #666;  */
+    font-weight: 400;
+    font-family: Roboto Slab,serif;
+    line-height: 2.6rem;
+	margin-top: -16%;
+}
+
+.cms-home .module-1 .section-grid .section-grid-content .section-grid-section a img {
+    display: block;
+    min-width: 100%;
+    min-height: 190px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+@media only screen and (min-width: 992px)
+.cms-home .module-1 .section-grid .section-grid-content .section-grid-section a img:hover {
+    transform: translateY(-50%,-50%) scale(1.2);
+}
+
+.cms-home .module-1 .section-grid .section-grid-content .section-grid-section a img {
+    display: block;
+    min-width: 100%;
+    min-height: 190px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content .section-grid-section .wrapper a:hover img {
+    transform: scale(1.2);
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content .section-grid-section .wrapper a img {
+    transition: .6s ease;
+    min-width: 100%;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content .section-grid-section .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 190px;
+    width: 100%;
+}
+
+.cms-home .module-1 .section-grid .section-grid-content .section-grid-section a img {
+    display: block;
+    min-width: 100%;
+    min-height: 190px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+	}
+	
+@media only screen and (min-width: 1200px)
+.cms-home .container {
+    width: 1140px;
+}
+
+@media only screen and (min-width: 768px)
+.cms-home .container {
+    width: 760px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content {
+    padding-bottom: 80px;
+    padding-top: 35px;
+}
+
+@media only screen and (min-width: 1200px)
+.container {
+    width: 1140px;
+}
+
+@media only screen and (min-width: 768px)
+.container {
+    width: 750px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.container, .main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+element.style {
+}
+
+@media only screen and (min-width: 1200px)
+.cms-home .container {
+    width: 1140px;
+}
+
+@media only screen and (min-width: 992px)
+.cms-home .container {
+    width: 970px;
+}
+
+@media only screen and (min-width: 768px)
+.cms-home .container {
+    width: 760px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 992px)
+.section-grid .section-grid-content {
+    padding-bottom: 80px;
+    padding-top: 35px;
+}
+.section-grid .section-grid-content {
+    padding-top: 20px;
+    padding-bottom: 25px;
+	width: 100%;  /* new */
+}
+
+@media only screen and (min-width: 1200px)
+.container {
+    width: 1140px;
+}
+
+@media only screen and (min-width: 992px)
+.container {
+    width: 970px;
+}
+
+@media only screen and (min-width: 768px)
+.container {
+    width: 750px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+.container, .main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media handheld, only screen and (min-width: 768px)
+.grid-pad {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.grid:after, [class*=grid], [class*=hcol-], [class*=mobile-] {
+    box-sizing: border-box;
+}
+
+/*
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+*/
+user agent stylesheet
+div {
+    display: block;
+}
+
+/*
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: Roboto,sans-serif;
+    color: #666;
+    letter-spacing: .05rem;
+    line-height: 2.4rem;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    font-smooth: always;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+*/
+
+
+

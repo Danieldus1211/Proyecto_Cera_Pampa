@@ -1,0 +1,42 @@
+Sub Ingresa_Datos()
+
+Dim WsD As Worksheet
+Dim WsF As Worksheet
+Dim UltFila, n As Long
+	'
+	Set WsD = Worksheets("BaseDatos")
+	Set WsD = Worksheets("Formulario")
+	'
+	if Wsf.Range("").value = Empty or WsF.Range("C5").value = Empty then
+		Msgbox("Falta ingresar datos"),vbInformation,
+		Exit sub
+	end if 
+	'
+	UltFila = WsD.Cells(Rows.Count, 1).End(xlUp).Row + 1
+	n = 12
+	Do While Not IsEmpty(WsF.Range("B" & n))
+		WsD.Cells(UltFila, 1).Value = WsF.Range("C5").value
+		WsD.Cells(UltFila, 1).Value = WsF.Range("C5").value
+		WsD.Cells(UltFila, 2).Value = WsF.Range("C5").value
+		WsD.Cells(UltFila, 3).Value = WsF.Range("C5").value
+		WsD.Cells(UltFila, 4).Value = WsF.Range("C5").value
+		WsD.Cells(UltFila, 5).Value = WsF.Range("C5").value
+		WsD.Cells(UltFila, 6).Value = WsF.Range("C5").value
+		WsD.Cells(UltFila, 5).Value = Cells(n, 2).value
+		WsD.Cells(UltFila, 6).Value = Cells(n, 3).value
+		WsD.Cells(UltFila, 7).Value = Cells(n, 5).value
+		WsD.Cells(UltFila, 8).Value = Cells(n, 6).value
+		WsD.Cells(UltFila, 9).Value = Cells(n, 7).value
+		UltFila=UltFila+1
+		n = n+1
+		'
+	loop
+	'	
+	if Ultfila> 11 then
+		wsF.Range("B12:D" & UltFila).clearContens
+	end if 
+	'
+	Call NewNum
+	'
+	end sub 
+		

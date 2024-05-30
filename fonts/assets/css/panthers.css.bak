@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*---------------------------------------------------
+
+* Nombre del proyecto: 				KIA Colomabia - Landing page
+* Nombre del archivo: 				kia.css
+* Descripción:						Hoja de estilos global
+* Fecha de creación:				18 de Junio de 2013
+* Autor:							Adrián Rodríguez
+
+== COMENTARIOS ===========
+
+
+* Ancho:							980px
+---------------------------------------------------*/
+
+/*---------------------------------------------MAIN SLIDER--------------------------------------------*/
+
+/*---------------------------------------------MAIN NAV--------------------------------------------*/
+.nav-block{
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.main-nav{
+	background-color: #FAFAFA;
+    border-bottom: 1px solid #B5B5B5;
+    height: 82px;
+    position: relative;
+    width: 100%;
+}
+.main-nav ul{
+	height: 95px;
+    margin: 0 auto;
+    width: 1000px;
+}
+.main-nav li{
+	background-position: center top;
+    background-repeat: no-repeat;
+    float: left;
+    
+    margin-top: 20px;
+}
+.main-nav .bt{
+	position:relative;
+	height: 63px;
+}
+.main-nav li.btn1{
+	background-image:url(../img/nav-ico1.png);
+}
+.main-nav li.btn2{
+	background-image:url(../img/nav-ico2.png);
+}
+.main-nav li.btn3{
+	background-image:url(../img/nav-ico3.png);
+}
+.main-nav li.btn4{
+	background-image:url(../img/nav-ico4.png);
+}
+.main-nav li.btn5{
+	background-image:url(../img/nav-ico5.png);
+}
+.main-nav li.btn6{
+	background-image:url(../img/nav-ico6.png);
+}
+.main-nav li:hover,
+.main-nav li.active{
+	background-position:center -79px;
+}
+.main-nav li:hover a,
+.main-nav li.active a{
+	color: #62112e;
+}
+.main-nav a{
+	color: #A0A0A0;
+    cursor: pointer;
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+    width: 165px;
+}
+.main-nav li .bt img{
+	bottom: -11px;
+    display: none;
+    left: 71px;
+    position: absolute;
+    z-index: 9;
+}
+.main-nav li:hover .bt img,
+.main-nav li.active .bt img{
+	display:block;
+}                                                     */
+.div-line{
+	float: left;
+    margin-top: 18px;
+}
+.main-nav li:hover .sub-menu{
+	display:block;
+}
+.sub-menu{
+	background-image: url("imagenes/submenu-bkg.png");
+    border-bottom: 1px solid #B5B5B5;
+    display: none;
+    height: 110px;
+    left: 0;
+    position: absolute;
+    top: 83px;
+    width: 100%;
+}
+.desp{
+	margin: 0 auto;
+    padding: 24px 0;
+    width: 940px;
+}
+.desp > img{
+	float: left;
+    margin: 0 20px 0 0;
+}
+
+.desp-nav{
+	float: left;
+    width: 400px;
+}
+
+.desp-nav ul{
+	float: left;
+    width: 200px;
+}
+.desp-nav li{
+	float: none;
+    margin-top: 0;
+}
+.desp-nav li a{
+	color: #A7A7A7 !important;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+    text-align: left;
+	width: 100%;
+}
+.desp-nav li a:hover{
+	color:#fff !important;
+}
+.quote{
+	border-bottom: 1px solid #303030;
+    border-top: 1px solid #303030;
+    float: right;
+    padding: 5px 0;
+    text-align: right;
+    width: 470px;
+}
+.quote p{
+	display: inline-block;
+    margin: 0;
+    max-width: 410px;
+    text-align: right;
+    vertical-align: top;
+}
+.quote-l{
+	display: inline-block;
+    vertical-align: middle;
+}
+.quote-r{
+	display: inline-block;
+    vertical-align: bottom;
+}
